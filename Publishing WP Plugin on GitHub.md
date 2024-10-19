@@ -14,7 +14,7 @@
 function tg_{slug}_plugin_updates() {
  require dirname( __FILE__ ) . '/plugin-updater/plugin-update-checker.php';
  $myUpdateChecker = \YahnisElsts\PluginUpdateChecker\v5\PucFactory::buildUpdateChecker(
-  'https://github.com/tenseg/tg-404-site-checker',
+  '{repo_url}',
   __FILE__,
   '{slug}'
  );
