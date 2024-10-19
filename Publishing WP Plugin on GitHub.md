@@ -27,8 +27,8 @@ add_action( 'admin_init', 'tg_{slug}_plugin_updates' );
 
 To release an update of a plugin or theme on Github
 
-1. Bump version and tested up to in header and both readme files
-2. Add release notes to both readme files
+1. Bump version and tested up to in header readme
+2. Add release notes to readme
 3. Commit update on main and push to internal remotes
 4. Push to Github
     1. `git push public main` in command line
